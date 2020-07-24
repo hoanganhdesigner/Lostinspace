@@ -1,0 +1,52 @@
+.site-main.vs-track .site-footer {
+  height: 100vh;
+  grid-template-columns: auto 7fr auto minmax(20rem, 5fr);
+}
+.vs-track > .site-footer {
+  flex-shrink: 0;
+  height: 100%;
+}
+.site-footer {
+  display: grid;
+  grid-gap: 2rem 4rem;
+}
+.site-footer hr,
+.site-footer .reinsurance {
+  grid-column: 1/5;
+  margin: 0;
+}
+hr {
+  color: currentColor;
+  opacity: 0.3;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid currentColor;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+section {
+  display: block;
+}
+.reinsurance-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px !important;
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+.reinsurance-item-img {
+  display: inline-block;
+  height: 4rem;
+}
+.reinsurance-item .icon {
+  width: auto;
+  height: auto;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.reinsurance-item-body {
+  display: inline-block;
+  max-width: 16em;
+}

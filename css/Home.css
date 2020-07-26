@@ -49,10 +49,12 @@ header {
   font-weight: 600;
   color: #fff;
 }
+
 .nav-menu {
   position: absolute;
   right: 4rem;
 }
+
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -77,6 +79,10 @@ header {
 .nav-menu ul li.Chat-item a:hover {
   background-color: #fff;
   color: #333;
+}
+.nav-menu ul li a:hover {
+  color: #ffb400;
+  transition: 0.1s ease-in;
 }
 /*body*/
 .vs-section {

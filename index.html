@@ -13,17 +13,11 @@
     <link rel="stylesheet" href="css/Glide/glide.theme.min.css" />
     <!-- jquery -->
     <script src="js/jq/jquery-3.4.1.js"></script>
-    <!-- greensock -->
-    <script src="js/greensock/TweenMax.min.js"></script>
     <!--glide-->
     <script src="js/glide.min.js"></script>
   </head>
 
   <body>
-    <!--<div class="overlay">
-      <h3>MaisonDesouris</h3>
-    </div>-->
-
     <!--navication-->
     <header class="site-header fixed-top text-light">
       <nav class="nav-bar">
@@ -49,9 +43,6 @@
             </li>
             <li class="nav-item About-us rev-block">
               <span><a href="about.html">About us</a></span>
-            </li>
-            <li class="nav-item Account rev-block">
-              <span><a href="Account.html">Account</a></span>
             </li>
           </ul>
         </div>
@@ -892,20 +883,6 @@
         autoplay: 3000,
         peek: { before: 0, after: 32 },
       }).mount();
-    </script>
-    <!--TweenMax-->
-    <script type="text/javascript">
-      TweenMax.to(".overlay h3", 2, {
-        delay: 1,
-        left: "90%",
-        opacity: 0,
-        ease: Expo.easeInOut,
-      });
-      TweenMax.to(".overlay", 2, {
-        delay: 1,
-        right: "100%",
-        ease: Expo.easeInOut,
-      });
     </script>
   </body>
 </html>

@@ -46,14 +46,13 @@ header {
 }
 .nav-menu ul li {
   display: inline-block;
-  padding-left: 30px;
+  padding-left: 3rem;
   font-weight: 500;
 }
 .nav-menu ul li a {
   list-style: none;
   text-decoration: none;
   color: #fff;
-  font-weight: 600;
   cursor: pointer;
 }
 
